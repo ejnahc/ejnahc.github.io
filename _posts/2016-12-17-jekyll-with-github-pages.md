@@ -110,3 +110,15 @@ git push -u origin master
 {% endhighlight %}
 
 그 상위 폴더 또한 올리되, dev 브랜치를 만들어 올리기로 한다.
+{% highlight bash %}
+cd ../
+git init
+git add --all
+git commit -m "first commit"
+git remote add origin git@github.com:ejnahc/ejnahc.github.io.git
+git checkout -b dev
+git branch -d master
+git checkout dev
+git push -u origin dev
+{% endhighlight %}
+
