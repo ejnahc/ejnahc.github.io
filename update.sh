@@ -9,6 +9,7 @@ cd ~/ejnahc.github.io \
 && git push \
 
 cd _site \
+&& echo "blog.chan.je" >> CNAME \
 && git add --all \
 && git commit -m "$commit_msg" \
 && git push \
