@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2016 01:05:47 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2016 01:05:47 +0900</lastBuildDate>
+    <pubDate>Sun, 18 Dec 2016 01:08:05 +0900</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 01:08:05 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -26,7 +26,7 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve --watch -
 
 &lt;p&gt;이후 &lt;code class=&quot;highlighter-rouge&quot;&gt;http://SITE:4000/&lt;/code&gt; 으로 접속하여 정상적으로 나오는지 확인한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 에서 필요한 설정을 바꿀 수 있다.&lt;/p&gt;
 
-&lt;p&gt;daemon을 켜놓고 파일을 바꾸게 되면 자동으로 html 파일을 build해 주는 원리이다.&lt;/p&gt;
+&lt;p&gt;이후 &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll build&lt;/code&gt;로 직접 build하거나, 또는 serve 켜놓고 파일을 바꾸게 되면 자동으로 html 파일을 build해 주는 원리이다.&lt;/p&gt;
 
 &lt;h2 id=&quot;스킨-씌우기&quot;&gt;스킨 씌우기&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org&quot;&gt;Jekyll Themes&lt;/a&gt;에 다양한 테마들이 있다. 마음에 드는 것을 고르면 된다. &lt;a href=&quot;http://jekyllthemes.org/themes/zetsu/&quot;&gt;Zetsu&lt;/a&gt;를 사용한다. &lt;a href=&quot;https://github.com/nandomoreirame/zetsu/archive/master.zip&quot;&gt;다운로드 링크&lt;/a&gt;를 눌러 다운받아서 루트에 덮어 씌운다.&lt;/p&gt;
