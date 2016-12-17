@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.chan.je/</link>
     <atom:link href="http://blog.chan.je/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2016 01:22:19 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2016 01:22:19 +0900</lastBuildDate>
+    <pubDate>Sun, 18 Dec 2016 01:23:13 +0900</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 01:23:13 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -133,7 +133,7 @@ git push -u origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git push &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ..&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.&lt;/p&gt;
+&lt;p&gt;따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다. &lt;a href=&quot;https://github.com/ejnahc/ejnahc.github.io/blob/master/update.sh&quot;&gt;실제 쓰고 있는 파일&lt;/a&gt;은 약간 삽질을 해서 살짝 다르다.&lt;/p&gt;
 
 &lt;h2 id=&quot;custom-domain-적용하기&quot;&gt;custom domain 적용하기&lt;/h2&gt;
 &lt;p&gt;가지고 있는 도메인을 블로그 주소로 쓸 수도 있는데 CNAME 레코드를 바꾸면 된다. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Github Help&lt;/a&gt;에서 확인하면 된다. CNAME 설정을 하면 github repo에서 CNAME 파일을 자동 생성하기에 한번 &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;로 끌어와야 한다.&lt;/p&gt;
