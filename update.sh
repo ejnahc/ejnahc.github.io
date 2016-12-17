@@ -7,7 +7,8 @@ cd ~/ejnahc.github.io \
 && git add --all \
 && git commit -m "$commit_msg" \
 && git push \
-&& cd _site \
+
+cd _site \
 && git add --all \
 && git commit -m "$commit_msg" \
 && git push \
