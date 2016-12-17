@@ -130,6 +130,7 @@ echo -e "Commit message: \c"
 read commit_msg
 
 cd ~/ejnahc.github.io \
+&& bundle exec jekyll build \
 && git add --all \
 && git commit -m "$commit_msg" \
 && git push \
@@ -142,3 +143,7 @@ cd ~/ejnahc.github.io \
 
 따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.
 
+## 더 할 것
+* cname 적용하기
+* 스킨 좀 더 다듬기
+* ... 
