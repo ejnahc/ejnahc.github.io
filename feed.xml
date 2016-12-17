@@ -4,10 +4,10 @@
     <title>blog.chan.je</title>
     <description>Here is personal blog by Chanje Park, aka ejnahc, founder of EJN.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2016 01:18:19 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2016 01:18:19 +0900</lastBuildDate>
+    <link>http://blog.chan.je/</link>
+    <atom:link href="http://blog.chan.je/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Dec 2016 01:19:36 +0900</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 01:19:36 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -139,8 +139,8 @@ git push -u origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;가지고 있는 도메인을 블로그 주소로 쓸 수도 있는데 CNAME 레코드를 바꾸면 된다. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Github Help&lt;/a&gt;에서 확인하면 된다. CNAME 설정을 하면 github repo에서 CNAME 파일을 자동 생성하기에 한번 &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;로 끌어와야 한다.&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Dec 2016 22:43:03 +0900</pubDate>
-        <link>/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</link>
-        <guid isPermaLink="true">/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</guid>
+        <link>http://blog.chan.je/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</link>
+        <guid isPermaLink="true">http://blog.chan.je/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</guid>
         
         
         <category>programming</category>
