@@ -22,7 +22,7 @@ bundle exec jekyll serve --watch --host=0.0.0.0
 
 이후 `http://SITE:4000/` 으로 접속하여 정상적으로 나오는지 확인한다. `_config.yml` 에서 필요한 설정을 바꿀 수 있다.
 
-daemon을 켜놓고 파일을 바꾸게 되면 자동으로 html 파일을 build해 주는 원리이다.
+이후 `bundle exec jekyll build`로 직접 build하거나, 또는 serve 켜놓고 파일을 바꾸게 되면 자동으로 html 파일을 build해 주는 원리이다.
 
 ## 스킨 씌우기
 [Jekyll Themes](http://jekyllthemes.org)에 다양한 테마들이 있다. 마음에 드는 것을 고르면 된다. [Zetsu](http://jekyllthemes.org/themes/zetsu/)를 사용한다. [다운로드 링크](https://github.com/nandomoreirame/zetsu/archive/master.zip)를 눌러 다운받아서 루트에 덮어 씌운다.
