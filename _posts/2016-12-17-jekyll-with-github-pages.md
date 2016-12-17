@@ -122,3 +122,23 @@ git checkout dev
 git push -u origin dev
 {% endhighlight %}
 
+둘 다 정상적으로 업로드 되었고 페이지가 제대로 나오는지 확인한다. 이제는 문서를 편집하거나 레이아웃을 수정하고 나서 둘 다 push 해서 올려주면 된다.
+
+{% highlight bash %}
+#!/bin/bash
+echo -e "Commit message: \c"
+read commit_msg
+
+cd ~/ejnahc.github.io \
+&& git add --all \
+&& git commit -m "$commit_msg" \
+&& git push \
+&& cd _site \
+&& git add --all \
+&& git commit -m "$commit_msg" \
+&& git push \
+&& cd ..
+{% endhighlight %}
+
+따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.
+
