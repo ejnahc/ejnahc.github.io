@@ -146,7 +146,7 @@ cd ~/ejnahc.github.io \
 && cd ..
 {% endhighlight %}
 
-따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.
+따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다. [실제 쓰고 있는 파일](https://github.com/ejnahc/ejnahc.github.io/blob/master/update.sh)은 약간 삽질을 해서 살짝 다르다.
 
 ## custom domain 적용하기
 가지고 있는 도메인을 블로그 주소로 쓸 수도 있는데 CNAME 레코드를 바꾸면 된다. [Github Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)에서 확인하면 된다. CNAME 설정을 하면 github repo에서 CNAME 파일을 자동 생성하기에 한번 `git pull`로 끌어와야 한다.
