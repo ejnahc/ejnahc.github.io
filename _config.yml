@@ -18,7 +18,7 @@ email: hello@chan.je
 description: > # this means to ignore newlines until "baseurl:"
   Here is personal blog by Chanje Park, aka ejnahc, founder of EJN.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.chan.je" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ejnahc
 github_username:  ejnahc
 paginate: 1 
