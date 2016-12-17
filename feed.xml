@@ -4,10 +4,10 @@
     <title>blog.chan.je</title>
     <description>Here is personal blog by Chanje Park, aka ejnahc, founder of EJN.
 </description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2016 01:02:07 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2016 01:02:07 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Dec 2016 01:05:47 +0900</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 01:05:47 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -118,6 +118,7 @@ git push -u origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;commit_msg
 
 &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/ejnahc.github.io &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git add --all &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git commit -m &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$commit_msg&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; git push &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
@@ -129,10 +130,16 @@ git push -u origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.&lt;/p&gt;
 
+&lt;h2 id=&quot;더-할-것&quot;&gt;더 할 것&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;cname 적용하기&lt;/li&gt;
+  &lt;li&gt;스킨 좀 더 다듬기&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 17 Dec 2016 22:43:03 +0900</pubDate>
-        <link>http://0.0.0.0:4000/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</guid>
+        <link>/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</link>
+        <guid isPermaLink="true">/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</guid>
         
         
         <category>programming</category>
