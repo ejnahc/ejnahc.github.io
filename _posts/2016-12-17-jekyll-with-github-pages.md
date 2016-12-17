@@ -6,7 +6,7 @@ categories: programming jekyll
 comments: true
 ---
 
-일단 첫 글은 이 Jekyll을 어떻게 설치했는지에 대해 적어보고자 한다.
+일단 블로그 첫 글은 이 블로그를 돌리는 Jekyll을 어떻게 Github Pages를 이용하여 설치했는지에 대해 적어보고자 한다. 써보게 된 동기는... 요즘 이걸 많이 쓴다고 하길래 나도 따라 써 봄.
 
 Github Pages에서는 기본적으로 Jekyll을 설치하여 호스팅이 가능하지만 Paginate 등의 Plugin은 설치가 불가능하다. github-pages 라는 gem이 있지만 여기에서도 Paginate 플러그인은 설치되어 있지 않다. 따라서 **local에서 직접 사이트를 build 한 다음, _site 폴더를 github page에 호스팅 하는 방법을 사용해야 한다.** 
 
@@ -22,7 +22,7 @@ bundle exec jekyll serve --watch --host=0.0.0.0
 
 이후 `http://SITE:4000/` 으로 접속하여 정상적으로 나오는지 확인한다. `_config.yml` 에서 필요한 설정을 바꿀 수 있다.
 
-이후 `bundle exec jekyll build`로 직접 build하거나, 또는 serve 켜놓고 파일을 바꾸게 되면 자동으로 html 파일을 build해 주는 원리이다.
+이후 `bundle exec jekyll build`로 직접 build하거나, 또는 serve 켜놓고 파일을 바꾸게 되면 자동으로 build 해준다.
 
 ## 스킨 씌우기
 [Jekyll Themes](http://jekyllthemes.org)에 다양한 테마들이 있다. 마음에 드는 것을 고르면 된다. [Zetsu](http://jekyllthemes.org/themes/zetsu/)를 사용한다. [다운로드 링크](https://github.com/nandomoreirame/zetsu/archive/master.zip)를 눌러 다운받아서 루트에 덮어 씌운다.
@@ -91,7 +91,12 @@ gems:
 
 {% highlight html %}
 {% raw %}
-<div id="disqus_thread"></div><script>var disqus_config = function () {this.page.url = '{{ page.id | prepend: site.url }}';this.page.identifier = '{{page.id}}';};(function() {var d = document, s = d.createElement('script');s.src = '//blog-chan-je.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {this.page.url = '{{ page.id | prepend: site.url }}';this.page.identifier = '{{page.id}}';};
+(function() {var d = document, s = d.createElement('script');s.src = '//blog-chan-je.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endraw %}
 {% endhighlight %}
 
@@ -143,7 +148,5 @@ cd ~/ejnahc.github.io \
 
 따로 bash script으로 만들어 돌려도 되고 편하게 하면 될 것 같다.
 
-## 더 할 것
-* cname 적용하기
-* 스킨 좀 더 다듬기
-* ... 
+## custom domain 적용하기
+가지고 있는 도메인을 블로그 주소로 쓸 수도 있는데 CNAME 레코드를 바꾸면 된다. [Github Help](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)에서 확인하면 된다. CNAME 설정을 하면 github repo에서 CNAME 파일을 자동 생성하기에 한번 `git pull`로 끌어와야 한다.
