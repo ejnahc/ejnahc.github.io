@@ -355,3 +355,20 @@
     font-size: 12px;
   }
 }
+
+.section-nav {
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 8px 30px;
+}
+ul.section-nav::before {
+  content: "Table of contents";
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.toc-entry.toc-h3 { margin-left: 30px; }
+.toc-entry.toc-h4 { margin-left: 45px; }
