@@ -413,7 +413,7 @@ th, td {
     text-decoration: none; }
 
 .header {
-  background: #292929 url(../images/cover.jpg) no-repeat 50% 0px;
+  background: #292929 url(../images/cover.jpg) no-repeat 50% 55%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
