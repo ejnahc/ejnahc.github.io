@@ -409,7 +409,7 @@ th, td {
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear; }
   .readmore:hover, .readmore:focus {
-    color: #7ad462;
+    color: #4388d0;
     text-decoration: none; }
 
 .header {
@@ -419,7 +419,7 @@ th, td {
   -o-background-size: cover;
   background-size: cover;
   border-bottom: 1px solid #e8e8e8;
-  border-top: 3px solid #58c93a;
+  border-top: 3px solid #2d6fb3;
   min-height: 60px;
   position: relative;
   padding: 60px 0;
@@ -501,7 +501,7 @@ th, td {
   .nav li.active a,
   .nav li:hover a,
   .nav li:focus a {
-    color: #7ad462;
+    color: #4388d0;
     text-decoration: none; }
 
 .menu-icon {
@@ -518,7 +518,7 @@ th, td {
   -webkit-transition: color 0.2s linear;
   transition: color 0.2s linear; }
   .post .post-header a:hover, .post .post-header a:focus {
-    color: #58c93a;
+    color: #2d6fb3;
     text-decoration: none; }
 .post .post-meta {
   font-size: 14px;
@@ -626,7 +626,7 @@ th, td {
       cursor: pointer;
       background: #fff; }
       .pagination li a:hover {
-        background: #58c93a;
+        background: #2d6fb3;
         border: none;
         color: #fff; }
 
