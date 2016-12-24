@@ -347,6 +347,16 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
+td, th {
+  padding: 6px 12px; }
+
+th {
+  background: #eee; }
+
+th, td {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+
 .f-left, .pull-left {
   float: left; }
 
@@ -628,6 +638,25 @@ pre {
   .footer small {
     color: #a8a8a8;
     font-size: 12px; }
+
+.section-nav {
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 8px 30px; }
+
+ul.section-nav::before {
+  content: "Table of contents";
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+  display: block; }
+
+.toc-entry.toc-h3 {
+  margin-left: 30px; }
+
+.toc-entry.toc-h4 {
+  margin-left: 45px; }
 
 /**
 * Syntax highlighting styles
