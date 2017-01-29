@@ -92,6 +92,12 @@ class Feedback(models.Model):
     email = models.EmailField()
     comment = models.TextField()
     createDate = models.DateTimeField()
+
+    def __str__(self):
+        return self.name
+
+    def __unicode__(self):
+        return u'%s' % self.name
 {% endhighlight %}
 
 ### 필드 타입
@@ -208,7 +214,8 @@ urlpatterns = [
 # home/urls.py
 from django.conf.urls import url
 from home import views
- 
+
+# app_name = 'test' -> url 'test:list' ...
 urlpatterns = [
     url(r'^list', views.list, name='list'),
     url(r'^create', views.create, name='create'),
@@ -307,7 +314,51 @@ $ ./manage.py collectstatic
 {% endhighlight %}
 
 ## Site Deployment - using Nginx + uWSGI
-TBD
+[Django and nginx](http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html) 문서를 참고한다.
+
+우선 uwsgi를 root에 설치한다.
+
+{% highlight bash %}
+$ sudo pip install uwsgi
+{% endhighlight %}
+
+위 파일을 `uwsgi.ini` 로 저장한다.
+
+{% highlight plain %}
+[uwsgi]
+
+# Django-related settings
+# the base directory (full path)
+chdir           = /home/myweb
+# Django's wsgi file
+module          = myweb.wsgi
+# the virtualenv (full path)
+home            = /home/myweb/venv
+
+# process-related settings
+# master
+master          = true
+# maximum number of worker processes
+processes       = 10
+# the socket (use the full path to be safe
+socket          = /tmp/myweb.sock
+# ... with appropriate permissions - may be needed
+chmod-socket    = 666
+# clear environment on exit
+vacuum          = true
+
+safe-pidfile = /var/run/myweb.pid
+uid = www-data
+gid = www-data
+{% endhighlight %}
+
+아래 명령어로 정상 동작하는지 확인한다.
+
+{% highlight bash %}
+$ uwsgi --ini uwsgi.ini
+{% endhighlight %}
+
+제대로 동작하는 경우, (systemd 에 적용)[http://uwsgi-docs.readthedocs.io/en/latest/Systemd.html]한다.
 
 ### Pip Package
 Deploy 시 현재 사용중인 패키지를 아래와 같이 저장, 설치할 수 있다.
