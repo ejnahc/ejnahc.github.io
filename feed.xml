@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.chan.je/</link>
     <atom:link href="http://blog.chan.je/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Oct 2017 09:12:48 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Oct 2017 09:12:48 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Oct 2017 18:18:42 +0900</pubDate>
+    <lastBuildDate>Thu, 05 Oct 2017 18:18:42 +0900</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;p&gt;셋팅할때마다 긴가민가 해서 기억 저장 겸 보관해둔다. 추석 기념 포스팅!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 05 Oct 2017 09:00:00 +0000</pubDate>
+        <pubDate>Thu, 05 Oct 2017 18:00:00 +0900</pubDate>
         <link>http://blog.chan.je/programming/aws/2017/10/05/cloudfront-s3-307-error.html</link>
         <guid isPermaLink="true">http://blog.chan.je/programming/aws/2017/10/05/cloudfront-s3-307-error.html</guid>
         
@@ -77,9 +77,9 @@
 
 &lt;p&gt;나머지는 적절히 지정해 준 다음 생성된 로드 밸런서의 CNAME으로 도메인을 지정해 주고 잠시 후 접속이 제대로 되는지 확인해 보면 된다.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 Jan 2017 17:30:00 +0000</pubDate>
-        <link>http://blog.chan.je/programming/aws/2017/01/29/socket-io-with-aws-alb.html</link>
-        <guid isPermaLink="true">http://blog.chan.je/programming/aws/2017/01/29/socket-io-with-aws-alb.html</guid>
+        <pubDate>Mon, 30 Jan 2017 02:30:00 +0900</pubDate>
+        <link>http://blog.chan.je/programming/aws/2017/01/30/socket-io-with-aws-alb.html</link>
+        <guid isPermaLink="true">http://blog.chan.je/programming/aws/2017/01/30/socket-io-with-aws-alb.html</guid>
         
         
         <category>programming</category>
@@ -501,7 +501,7 @@ gid = www-data&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Sat, 24 Dec 2016 14:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Dec 2016 23:00:00 +0900</pubDate>
         <link>http://blog.chan.je/programming/github/2016/12/24/parctical-compression-django.html</link>
         <guid isPermaLink="true">http://blog.chan.je/programming/github/2016/12/24/parctical-compression-django.html</guid>
         
@@ -555,7 +555,7 @@ gid = www-data&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;이 맛에 오픈소스 기여 하는구나 싶다! 생각보다 쉬우니 오픈소스에 많이 도움을 줘야 겠다는 생각을 했다. 일단은 오타 위주로.. ㅋㅋ&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Dec 2016 14:16:00 +0000</pubDate>
+        <pubDate>Fri, 23 Dec 2016 23:16:00 +0900</pubDate>
         <link>http://blog.chan.je/programming/github/2016/12/23/contributing-to-open-source.html</link>
         <guid isPermaLink="true">http://blog.chan.je/programming/github/2016/12/23/contributing-to-open-source.html</guid>
         
@@ -694,7 +694,7 @@ git push -u origin dev&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;custom-domain-적용하기&quot;&gt;custom domain 적용하기&lt;/h2&gt;
 &lt;p&gt;가지고 있는 도메인을 블로그 주소로 쓸 수도 있는데 CNAME 레코드를 바꾸면 된다. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Github Help&lt;/a&gt;에서 확인하면 된다. CNAME 설정을 하면 github repo에서 CNAME 파일을 자동 생성하기에 한번 &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;로 끌어와야 한다.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 17 Dec 2016 13:43:03 +0000</pubDate>
+        <pubDate>Sat, 17 Dec 2016 22:43:03 +0900</pubDate>
         <link>http://blog.chan.je/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</link>
         <guid isPermaLink="true">http://blog.chan.je/programming/jekyll/2016/12/17/jekyll-with-github-pages.html</guid>
         
